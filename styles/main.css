@@ -1,7 +1,44 @@
-.main-image{
-    width: 100px;
+.container{
+    position: relative;
+    text-align: center;
+    /* opacity: 0.5; */
 }
+.centered1 {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+  }
+  .centered2 {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+  }
+  .centered3 {
+    position: absolute;
+    top: 60%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+  }
 
 img{
-    max-width: 1000px;
+    width: 1200px;
+    /* height: 600px; */
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+      display: inline;
+  }
