@@ -99,3 +99,99 @@ ul {
   width: 50px;
   margin: 0 10px;
 }
+
+#skills{
+  height: 100vh;
+  min-height: 650px;
+  background-image: url("../images/pencil2.jpg");
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#skills h2 {
+  margin: 20px 0;
+  font-size: 35px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    height: 80vh;
+    width: 90vw;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 135px 135px 145px 135px;
+    grid-template-areas: 
+    "camps space1 front-end front-end"
+    "camps back-end back-end space2"
+    "space3 space4 tools tools"
+    "space3 soft soft space5";
+    grid-gap: 7px;
+}
+
+.camps {
+  grid-area: camps;
+  border-top: 1px solid rgb(169, 144, 112);
+  border-left: 1px solid rgb(169, 144, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camps-content {
+  color: antiquewhite;
+  width: 70%;
+}
+
+.front-end {
+  grid-area: front-end;
+  border-bottom: 1px solid rgb(169, 144, 112);
+  border-right: 1px solid rgb(169, 144, 112);
+}
+
+.back-end {
+  grid-area: back-end;
+  border-bottom: 1px solid rgb(169, 144, 112);
+  border-left: 1px solid rgb(169, 144, 112);
+}
+
+.tools {
+  grid-area: tools;
+  border-bottom: 1px solid rgb(169, 144, 112);
+  border-right: 1px solid rgb(169, 144, 112);
+}
+
+.soft {
+  grid-area: soft;
+  border-bottom: 1px solid rgb(169, 144, 112);
+  border-left: 1px solid rgb(169, 144, 112);
+}
+
+.space1 {
+  grid-area: space1;
+}
+
+.space2 {
+  grid-area: space2;
+}
+
+.space3 {
+  grid-area: space3;
+}
+
+.space4 {
+  grid-area: space4;
+}
+
+.space5 {
+  grid-area: space5;
+}
+
+.skills-style {
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
