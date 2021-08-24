@@ -58,3 +58,44 @@ ul {
   font: normal 60px/1.1 'Dosis', sans-serif;
   margin-top: 0;
 }
+
+#about-me {
+  height: 80vh;
+  min-height: 650px;
+  background-image: url("../images/chess-revers2.jpg"), linear-gradient(#F8EDD9,#FCEFDC, #FDF0DD, #FFF2DF);
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.my-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.content {
+  width: 65vw;
+  text-align: center;
+}
+
+.description {
+  text-align: initial;
+  color: #08233D;
+}
+
+.content h2 {
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social img {
+  width: 50px;
+  margin: 0 10px;
+}
