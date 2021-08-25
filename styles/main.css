@@ -195,3 +195,55 @@ ul {
   justify-content: space-around;
   align-items: center;
 }
+
+#portfolio {
+  height: 100vh;
+  min-height: 650px;
+  background-color: #fffbf6;
+}
+
+#portfolio h2 {
+  margin: 0;
+  font-size: 35px;
+  color: #08233D;
+  text-align: center;
+  padding: 20px;
+}
+
+.portfolio-content {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.portfolio-content ul li {
+  position: relative;
+  width: 32%;
+  background-color: #08233D;
+}
+
+.portfolio-content ul li img {
+  height: 100%;
+}
+
+.img-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: rgba(29, 106, 154, 0.72); */
+  background: rgb(234 220 199 / 95%);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  color: black;
+  text-align: center;
+  transition: opacity .2s, visibility .2s;
+}
+
+.portfolio-content ul li:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
