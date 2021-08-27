@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -36,7 +36,6 @@ ul {
 
   li{
       display: inline;
-      /* padding: 10px 35px 10px 40px; */
       
   }
   li a{
@@ -246,4 +245,65 @@ ul {
 .portfolio-content ul li:hover .img-description {
   visibility: visible;
   opacity: 1;
+}
+
+#contact{
+  height: 100vh;
+  min-height: 650px;
+  background-image: url("../images/paper3.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#contact h2 {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 35px;
+}
+
+.contact-container {
+  height: 80vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.contact-description {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-button {
+  margin-top: 10vh;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: #20162F;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #20162F;
+  border-radius: 7px;
+  background-color: #d5c6ad;
+}
+
+.contact-button a:hover {
+  text-decoration: none;
+  color: #d5c6ad;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #d5c6ad;
+  border-radius: 7px;
+  background-color: #20162F;
 }
